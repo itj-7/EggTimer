@@ -35,22 +35,22 @@ function SelectEgg() {
         </h1>
         <div className="row g-4">
           <div className="col-6 d-flex justify-content-center">
-            <Button src="./public/Soft.png" time={3}>
+            <Button src="/Soft.png" time={3}>
               Soft
             </Button>
           </div>
           <div className="col-6 d-flex justify-content-center">
-            <Button src="./public/Medium.png" time={6}>
+            <Button src="/Medium.png" time={6}>
               Medium
             </Button>
           </div>
           <div className="col-6 d-flex justify-content-center">
-            <Button src="./public/Hard.png" time={8}>
+            <Button src="/Hard.png" time={8}>
               Hard
             </Button>
           </div>
           <div className="col-6 d-flex justify-content-center">
-            <Button src="./public/ExtraHard.png" time={10}>
+            <Button src="/ExtraHard.png" time={10}>
               Extra Hard
             </Button>
           </div>
