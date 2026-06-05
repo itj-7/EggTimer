@@ -13,7 +13,7 @@ function Timer() {
   useEffect(() => {
     if (time === 0) {
       if (time === 0) {
-        alarmRef.current = new Audio("./public/Alarm.mp3");
+        alarmRef.current = new Audio("/Alarm.mp3");
         alarmRef.current.loop = true;
         alarmRef.current.play();
         return;
